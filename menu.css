@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppy;
+}
+.menu_button{
+    display: block;
+    block-size: 30;
+}
+
+.logo{
+    display: block;
+    padding: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+.nav_desktop{
+    display: none;
+}
+
+.nav_mobile{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    }
+    
+.nav-box_wrapper {
+    
+    display:flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    background-color: #3B2F2F;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    }
+
+@media only screen and (min-width: 768px) {
+.nav_mobile{
+    display: none;
+}
+
+.nav_desktop{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+}
+.logo{
+    display: block;
+    padding: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.buttons_desktop ul {
+   
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.buttons_desktop li{
+    margin-right: 10px;
+    float:left;
+    width: 150px;
+    margin-left: 1px;
+}
+
+.buttons_desktop a{
+    
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+.buttons_desktop ul > li > a:hover {
+    color:rgb(41, 18, 9);
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+.buttons_desktop ul > li > ul {
+    display: none;
+}
+
+.buttons_desktop ul > li:hover > ul{
+    display: block;
+    position: absolute;
+}
+}
+.menu{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    background-color:#f8afc3 ;
+    font-size: 20px;
+    padding: 30px;
+}
+.menu h2{
+    font-size: 40px;
+}
+.ul{
+    text-align: left;
+}
+body{
+    background-color:#ffffff;
+}
+.kawa{
+    width: 300px;
+    }
+.desery{
+        width: 300px;
+        }
+        .herbata{
+            width: 300px;
+            }
+            .napoje{
+                width: 300px;
+                }

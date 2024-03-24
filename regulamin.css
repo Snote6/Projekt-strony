@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppy;
+}
+.logo{
+    display: block;
+    padding: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+.nav_desktop{
+    display: none;
+}
+
+.nav_mobile{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    }
+
+.nav-box_wrapper {
+    
+    display:flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    background-color: #3B2F2F;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    }
+
+@media only screen and (min-width: 768px) {
+.nav_mobile{
+    display: none;
+}
+
+.nav_desktop{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+}
+.logo{
+    display: block;
+    padding: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.buttons_desktop ul {
+   
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.buttons_desktop li{
+    margin-right: 10px;
+    float:left;
+    width: 150px;
+    margin-left: 1px;
+}
+
+.buttons_desktop a{
+    
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+.buttons_desktop ul > li > a:hover {
+    color:rgb(41, 18, 9);
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+.buttons_desktop ul > li > ul {
+    display: none;
+}
+
+.buttons_desktop ul > li:hover > ul{
+    display: block;
+    position: absolute;
+}
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color:#ffffff;
+}
+
+.regulamin_header{
+    display: flex;
+    position: relative;
+    top: 80px;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;  
+}
+
+.regulamin{
+    position: relative;
+    top: 100px;
+    display: flex;
+    background-color: #f8afc3;
+    color: #ffffff;
+    font-size: 22px;;
+}
+
+ol{
+    margin-left: 35px;
+
+}
+
+.regulamin{
+    position: relative;
+    top: 200px;
+    display: block;
+    background-color:#f8afc3 ;
+
+}
+.regulamin section{
+    display: flex;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 10px;
+    padding: 40px;
+   
+}
+.regulamin h2{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 35px;
+}

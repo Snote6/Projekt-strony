@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rezerwacja.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>CatCafe - Rezerwacja</title>
+</head>
+<body>
+    <nav class="nav_mobile">
+        <div class="nav-box_wrapper">
+            <div class="logo">
+                <a href="index.html">Cat cafe</a>
+            </div>
+            <button class="menu_button">
+                <ion-icon name="reorder-three-outline"></ion-icon>
+            </button>
+        </div>
+    </nav>
+
+    <nav class="nav_desktop">
+        <div class="nav-box_wrapper">
+            <div class="logo">
+                <a href="index.html">Cat cafe</a>
+            </div>
+        <div class="buttons_desktop">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="o_nas.html">O nas</a>
+            <ul>
+                <li><a href="regulamin.html">Regulamin</a></li>
+            </ul>
+        </li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="kontakt.html">Kontakt</a>
+            <ul>
+                <li><a href="rezerwacja.html">Rezerwacja</a></li>
+            </ul>
+        </li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="rezerwacja">
+    <h2>Rezerwacja stolika</h2>
+    <br>
+    <form>
+        <p>Imie i Nazwisko:</p>
+        <br>
+        <label>Imie <input></label>
+        <label>Nazwisko <input></label>
+        <br>
+        <p>E-mail:</p>
+        <input>
+        <br>
+        <p>Numer telefonu:</p>
+        <input>
+        <br>
+        <p>Liczba Gości:</p>
+        <input>
+        <br>
+        <p>Wybierz date:</p>
+        <input type="date">
+        <br>
+        <p>Wybierz godzinę:</p>
+            <select name="godzina">
+                <option>12:00</option>
+                <option>14:00</option>
+                <option>16:00</option>
+                <option>18:00</option>
+            </select>
+            <br>
+        <p>Specjalne uwagi:</p>
+        <textarea name="comment" placeholder="Wpisz tutaj komentarz" cols="50" row="10"></textarea>
+        <br>
+        <input type="submit" value="wyślij">
+        <input type="reset" value="wyczyść">
+    </form>
+    </div>
+</body>
+</html>
